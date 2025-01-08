@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(28, 26, 26);
+  color: gray;
+}
+
+h1, p {
+  font-family: "Faculty Glyphic", serif;
+}

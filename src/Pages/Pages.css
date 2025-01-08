@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* displays hello world my name is akshika */
+.header{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 0 20vh;
+}
+
+/* About Section */
+.about {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 50px 200px;
+    text-align: center;
+}
+.about-item1 {                  /*face pic component*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 10px 10px 20px rgba(57, 57, 60, 0.2); 
+    display: inline-block;
+}
+.about-item2 {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.about-item2 h1, .knowledge h1, .resume h1 {
+    font-size: 45px;
+}
+.about-item2 p {
+    font-size: 28px;;
+}
+
+/* Languages and Tools Section */
+.knowledge {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center all items horizontally */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.languages, .tools {
+    width: 100%;
+    max-width: 600px; /* Limit the width for readability */
+    margin-bottom: 30px; /* Space between sections */
+    text-align: center; /* Center text within each section */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+.knowledge li {
+    box-shadow: 10px 10px 20px rgba(20, 20, 26, 0.2); /* Add shadow effect */
+    display: block; /* Stack items vertically */
+    margin: 10px 0; /* Add spacing between items */
+    padding: 20px; /* Add padding inside list items */
+    background-color: #4e4848; /* White background for the list item */
+    border-radius: 8px; /* Rounded corners for list items */
+    font-size: 18px; /* Adjust font size */
+    color: #e0dddd; /* Dark text color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for list items */
+.knowledge li:hover {
+    transform: translateY(-5px); /* Lift the item on hover */
+    box-shadow: 10px 10px 30px rgba(73, 73, 77, 0.2); /* Darker shadow on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+/* Resume section */
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center all items */
+    justify-content: center; /* Vertically center all items */
+    padding: 20px; /* Ensure full height of the viewport */
+    text-align: center; /* Center text */
+}
+.resume iframe:hover {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 10px 10px 20px rgba(57, 57, 60, 0.2); 
+    transform: scale(1.05);
+}
+
+/* Horizontal line */
+.horizontal-line {
+    position: relative;
+    width: 0; /* Initially, the line has no width */
+    height: 2px; /* Thickness of the line */
+    background-color: #333; /* Color of the line */
+    margin: 20px auto; /* Center the line with space around it */
+    transition: width 2s ease-out; /* Smooth transition for width expansion */
+}
+
+/* The line will expand to 50% when the class 'expanded' is added */
+.horizontal-line.expanded {
+    width: 50%; /* Line takes up the middle (50%) of the container */
+}

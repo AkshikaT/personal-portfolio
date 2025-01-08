@@ -1,0 +1,35 @@
+.header h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.allProjects h1 {
+    color: rgb(217, 212, 212);
+}
+
+.allProjects p {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.allProjects li {
+    background-color: rgb(56, 54, 54);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5pc;
+    margin-bottom: 2rem;
+    padding: 2pc;
+}
+
+.project {
+    display: flex; 
+    background-color: white;
+    justify-content: center; /* Center the items horizontally */
+    border-radius: 10px; /* Rounded corners */
+    align-items: center; /* Align items vertically in the middle */
+    gap: 20px; /* Add space between the video and image */
+}

@@ -1,0 +1,16 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info {
+    flex: 1;            /* ensures equal width */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.info h3 {
+    font-weight: 2;
+}
