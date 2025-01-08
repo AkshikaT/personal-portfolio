@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Pages.css';
 import Navbar from '../Components/Navbar';
 import Typewriter from 'typewriter-effect';
-import profile from '/Users/akshika/Desktop/GitHub/personal-portfolio/src/facepic.jpeg';
+import profile from '../facepic.jpeg';
 
 function Home() {
     useEffect(() => {

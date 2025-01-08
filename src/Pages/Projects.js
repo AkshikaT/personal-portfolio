@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import './Projects.css'
 import './Pages.css'
-import design from '/Users/akshika/Desktop/GitHub/personal-portfolio/src/Components/design.png';
-import video from '/Users/akshika/Desktop/GitHub/personal-portfolio/src/Components/video.MOV';
+import design from '../Components/design.png';
+import video from '../Components/video.MOV';
 import Navbar from '../Components/Navbar';
  
 function Projects() {
