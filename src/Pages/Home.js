@@ -86,10 +86,10 @@ function Home() {
                 <div className="horizontal-line"></div>
             </div>
 
-            <div className='resume'>
+            {/* <div className='resume'>
                 <h1>My Resume</h1>
                 <iframe title="resume" src="https://drive.google.com/file/d/1gNTkMx8Qm-8r79N8xT9DigIiv8_K0yW5/preview" width="640" height="480" allow="autoplay"></iframe>
-            </div>
+            </div> */}
         </div>
         </>
     );
