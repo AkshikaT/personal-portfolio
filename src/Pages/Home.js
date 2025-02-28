@@ -78,6 +78,7 @@ function Home() {
                     <li>Linux</li>
                     <li>React</li>
                     <li>Node.js</li>
+                    <li>SQL</li>
                     <li>AutoDesk Inventor</li>
                 </ul>
             </div>
